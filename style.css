@@ -148,8 +148,47 @@ header div:last-child {
 }
 
 .blog-card .blog-author {
-  width: 100%;
+  width: 50%;
   position: absolute;
-  bottom: 0;
+  bottom: 4px;
   left: 160px;
+}
+
+/* FAQ */
+.faq-section {
+  display: flex;
+  margin-top: 60px;
+  /* padding: 50px 40px; */
+  background-color: #e8e5fa;
+  position: relative;
+  min-height: 30vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-section .faq-content {
+  padding: 10px 40px;
+}
+
+.faq-section .faq-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.faq-content h4.lorem {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.faq-section .faq-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.faq-section button {
+  margin-top: 20px;
+  padding: 8px 15px;
+  border: 0;
+  color: #fff;
+  background-color: #4617FE;
 }
