@@ -127,6 +127,10 @@ header div:last-child {
   border-radius: 45px 20px 20px 45px;
 }
 
+.blog-card .blog-image img {
+  display: block;
+}
+
 .blog-content {
   padding: 20px 50px;
 }
@@ -138,7 +142,6 @@ header div:last-child {
 
 .blog-content h3 {
   margin-bottom: 15px;
-
 }
 
 .blog-card .blog-bottom {
@@ -158,7 +161,6 @@ header div:last-child {
 .faq-section {
   display: flex;
   margin-top: 60px;
-  /* padding: 50px 40px; */
   background-color: #e8e5fa;
   position: relative;
   min-height: 30vh;
@@ -167,7 +169,7 @@ header div:last-child {
 }
 
 .faq-section .faq-content {
-  padding: 10px 40px;
+  padding: 0 40px;
 }
 
 .faq-section .faq-content h2 {
@@ -183,12 +185,53 @@ header div:last-child {
 .faq-section .faq-image img {
   height: 100%;
   width: 100%;
+  display: block;
 }
 
 .faq-section button {
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 8px 15px;
   border: 0;
   color: #fff;
   background-color: #4617FE;
+}
+
+/* download section */
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  padding: 0 40px
+}
+
+.download-section .download-content span {
+  font-weight: 200;
+}
+
+.download-email input {
+  width: 350px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: 0;
+  background-color: #e8e5fa;
+  color: #000;
+}
+
+.download-email input:focus {
+  outline: none;
+}
+
+.download-email input::placeholder {
+  color: #000;
+}
+
+.download-email button {
+  margin-left: -70px;
+  vertical-align: middle;
+  padding: 15px 35px;
+  border-radius: 25px;
+  border: 0;
+  background-color: #4617FE;
+  color: #fff;
 }
