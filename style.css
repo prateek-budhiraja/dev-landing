@@ -39,6 +39,10 @@ nav {
   font-weight: 100;
 }
 
+nav>* {
+  cursor: pointer;
+}
+
 nav .nav-item-active {
   background-color: #fff;
   color: #000;
@@ -87,6 +91,10 @@ header div:last-child {
   font-size: 1.2rem;
 }
 
+.companies a:hover {
+  color: #4617FE;
+}
+
 /* ---------------------- */
 /* API section */
 
@@ -107,6 +115,14 @@ header div:last-child {
   font-size: 3rem;
 }
 
+.cards h3.card-head-active {
+  color: #4617FE;
+}
+
+.cards .card h3:hover {
+  color: #4617FE;
+}
+
 .card-active {
   padding: 40px 15px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -125,6 +141,7 @@ header div:last-child {
   align-items: flex-start;
   box-shadow: 0px 3px 15px -2px rgba(0, 0, 0, 0.2);
   border-radius: 45px 20px 20px 45px;
+  cursor: pointer;
 }
 
 .blog-card .blog-image img {
@@ -194,6 +211,12 @@ header div:last-child {
   border: 0;
   color: #fff;
   background-color: #4617FE;
+  cursor: pointer;
+}
+
+.faq-section button:hover {
+  background-color: #fff;
+  color: #4617FE;
 }
 
 /* download section */
@@ -252,6 +275,12 @@ header div:last-child {
   gap: 1.5em;
   color: #fff;
   margin-top: 20px;
+}
+
+.footer-section .footer-left .list li,
+.footer-section .footer-right .logos-list li,
+.footer-section .footer-right .footer-logos {
+  cursor: pointer;
 }
 
 .footer-section .footer-left .list li::after {
