@@ -235,3 +235,64 @@ header div:last-child {
   background-color: #4617FE;
   color: #fff;
 }
+
+/* Footer */
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  min-height: 20vh;
+  align-items: center;
+  background-color: #4617FE;
+}
+
+.footer-section .footer-left .list {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5em;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer-section .footer-left .list li::after {
+  display: inline-block;
+  content: "|";
+  margin-left: 1em;
+}
+
+.footer-section .footer-left .list li:first-child::after,
+.footer-section .footer-left .list li:last-child::after {
+  display: inline-block;
+  content: "";
+  margin-left: 1em;
+}
+
+
+.footer-section .footer-right {
+  text-align: center;
+}
+
+.footer-section .footer-right .footer-logos {
+  margin: 0 10px;
+}
+
+
+.footer-section .footer-right .logos-list {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  color: #fff;
+  list-style-type: none;
+}
+
+.footer-section .footer-right .logos-list li::after {
+  margin-top: 20px;
+  display: inline-block;
+  content: "|";
+  margin-left: 1em;
+}
+
+.footer-section .footer-right .logos-list li:last-child:after {
+  display: inline-block;
+  content: ".";
+}
