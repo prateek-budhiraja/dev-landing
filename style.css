@@ -325,3 +325,87 @@ header div:last-child {
   display: inline-block;
   content: ".";
 }
+
+@media screen and (max-width: 1160px) {
+  header div:last-child {
+    display: none;
+  }
+
+  .blog-cards {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .blog-card {
+    margin-bottom: 10px;
+  }
+
+  .card,
+  .card-active {
+    margin-bottom: 20px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .header-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .header-text p {
+    font-size: .8rem;
+  }
+
+  .companies a {
+    margin: 10px;
+    font-size: .8rem;
+  }
+
+  .faq-image {
+    display: none;
+  }
+
+  .download-section {
+    padding-top: 40px;
+    display: block;
+  }
+
+  .footer-section {
+    display: block;
+  }
+
+  .blog-card .blog-image img {
+    width: 150px;
+  }
+
+  .blog-content h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog-card small {
+    display: none;
+  }
+
+  .download-email input {
+    width: 200px;
+  }
+
+  .footer-section .footer-right .logos-list li::after {
+    display: none;
+  }
+
+  .footer-section .footer-right .logos-list li:last-child:after {
+    display: none;
+  }
+
+  .footer-section .footer-left .list li::after {
+    display: none;
+  }
+}
